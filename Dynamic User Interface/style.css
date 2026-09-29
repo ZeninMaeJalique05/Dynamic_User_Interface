@@ -4,9 +4,13 @@
   font-weight: normal;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-/* Geader styles */
+body {
+    padding: clamp(12px, 4vw, 32px);
+}
+
 header{
   padding: 20px;
   margin: 20px;
@@ -24,11 +28,9 @@ header > h1{
 header > small{
   font-size: small;
   font-weight: lighter;
-  font-family: monospace;
   
 }
 
-/*Form Styles*/
 #formContainer{
   padding: 20px;
   margin: 20px;
